@@ -1,0 +1,5 @@
+# Ignore all files in model package first
+src/main/java/com/sc/banking/deposit/account/model/*.java
+
+# Then negate (include) only the Attribute classes
+!src/main/java/com/sc/banking/deposit/account/model/*Attribute*.java
